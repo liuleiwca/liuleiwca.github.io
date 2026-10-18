@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>传奇资料站 · 玩家手册</title>
+<meta name="description" content="关于职业、地图与成长路线的玩家资料。">
+<link rel="stylesheet" href="site.css"><script src="site.js" defer></script>
+</head>
+<body>
+<div class="utility"><div class="wrap">玩家手册 · 攻略与资料<span>内容为演示资料</span></div></div>
+<header class="wrap masthead"><a class="brand" href="./" aria-label="传奇资料站首页"><span class="seal">传</span><span><strong>传奇资料站</strong><small>给热爱这片大陆的玩家</small></span></a><form id="search-form" role="search"><label class="sr-only" for="search">搜索攻略</label><input id="search" type="search" placeholder="搜索职业、地图、攻略…"><button type="submit" aria-label="搜索攻略"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 5 5"/></svg></button></form></header>
+<nav class="nav" aria-label="主导航"><div class="wrap"><button class="active" data-category="全部">首页</button><button data-category="新手入门">新手入门</button><button data-category="职业攻略">职业攻略</button><button data-category="地图探索">地图探索</button><button data-category="装备养成">装备养成</button><button id="about-button">关于本站</button></div></nav>
+<main class="wrap">
+  <section class="hero" aria-labelledby="hero-title"><div class="hero-text"><div class="eyebrow">THE PLAYER'S FIELD GUIDE</div><h1 id="hero-title">重回熟悉的大陆，<br>从一份好攻略开始。</h1><p>职业怎么选，地图怎么走，装备怎么搭。<br>把值得收藏的经验，整理成随时可查的玩家手册。</p><button class="light-button" id="start-button">翻开新手指南 <span aria-hidden="true">↗</span></button><div class="hero-foot">职业 · 地图 · 装备 · 成长路线</div></div><div class="hero-art" aria-hidden="true"><div class="orbit one"></div><div class="orbit two"></div><div class="art-word">传奇</div><div class="mountain back"></div><div class="mountain front"></div><div class="vertical">再赴玛法 · 重拾热爱</div><div class="art-mark">玩家手册 / VOL. 01</div></div></section>
+  <section class="quick" aria-label="快速查找"><button data-category="新手入门"><span class="quick-no">01</span><span><strong>第一次出发</strong><small>从基础操作到成长路线</small></span><span class="go">↗</span></button><button data-category="职业攻略"><span class="quick-no">02</span><span><strong>找到你的职业</strong><small>战士、法师与道士</small></span><span class="go">↗</span></button><button data-category="装备养成"><span class="quick-no">03</span><span><strong>看懂装备搭配</strong><small>先理清思路，再做选择</small></span><span class="go">↗</span></button></section>
+  <div class="columns"><section class="guides" id="guides"><div class="section-head"><div><div class="eyebrow muted">READ & EXPLORE</div><h2>精选攻略</h2></div><span class="count" id="count">6 篇示例文章</span></div><div class="filters" aria-label="文章分类"><button class="selected" data-category="全部" aria-pressed="true">全部</button><button data-category="新手入门" aria-pressed="false">新手入门</button><button data-category="职业攻略" aria-pressed="false">职业攻略</button><button data-category="地图探索" aria-pressed="false">地图探索</button><button data-category="装备养成" aria-pressed="false">装备养成</button></div><div id="articles" aria-live="polite"></div></section>
+  <aside><section class="side-card notebook"><div class="eyebrow muted">START HERE</div><h2>新玩家备忘录</h2><p>不急着追赶进度，<br>先找到适合自己的节奏。</p><ol><li>确认当前游戏版本</li><li>了解职业的操作方式</li><li>熟悉地图与补给位置</li><li>根据实际情况选择装备</li></ol><button class="text-button" id="checklist-button">阅读入门文章 <span aria-hidden="true">→</span></button></section><section class="side-card"><div class="side-heading"><h2>常用标签</h2><span>TOPICS</span></div><div class="tags"><button data-search="战士">战士</button><button data-search="法师">法师</button><button data-search="道士">道士</button><button data-search="地图">地图</button><button data-search="装备">装备</button><button data-search="新手">新手</button></div></section><div class="edition"><span class="edition-icon">册</span><div><strong>慢慢探索，认真记录。</strong><p>这是一套可以继续完善的资料站。</p></div></div></aside></div>
+  <section class="closing"><span>每一段旅程，都值得好好准备。</span><button id="back-top">回到顶部 ↑</button></section>
+</main>
+<footer><div class="wrap"><div><strong>传奇资料站</strong><p>攻略 · 资料 · 玩家经验</p></div><p>示例资料 · 非官方网站<br>示例文章不代表任何特定版本的规则。</p></div></footer>
+<dialog id="article-dialog" aria-labelledby="dialog-title"><div class="dialog-top"><span id="dialog-category"></span><button id="close-dialog" aria-label="关闭文章">关闭 ×</button></div><h2 id="dialog-title"></h2><div id="dialog-body"></div><p class="dialog-note">本地示例内容，具体玩法请以对应游戏的实际规则为准。</p></dialog>
+</body>
+</html>
